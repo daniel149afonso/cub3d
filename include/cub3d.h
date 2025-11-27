@@ -6,7 +6,7 @@
 /*   By: daniel149afonso <daniel149afonso@studen    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/07/21 14:18:38 by scuthber          #+#    #+#             */
-/*   Updated: 2025/11/27 19:18:02 by daniel149af      ###   ########.fr       */
+/*   Updated: 2025/11/27 19:26:55 by daniel149af      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,7 +21,7 @@
 # include <stdlib.h>
 # include <sys/time.h>
 # include <time.h>
-# include "libft.h"
+# include "../libft/include/libft.h"
 # include "keys.h"
 # include "colors.h"
 
