@@ -1,0 +1,12 @@
+a.out
+.DS_STORE
+obj/
+*.o
+*.a
+*.txt
+.vscode
+README_map.md
+vgcore.*
+cub3D
+cub3d
+mouse_macos.c
