@@ -1,0 +1,42 @@
+{
+   ignore_X11_1
+   Memcheck:Leak
+   match-leak-kinds: reachable
+   ...
+   obj:/usr/lib/x86_64-linux-gnu/libX11.so.*
+}
+
+{
+   ignore_X11_2
+   Memcheck:Leak
+   match-leak-kinds: reachable
+   ...
+   obj:/usr/lib/x86_64-linux-gnu/libXext.so.*
+}
+
+{
+   ignore_X11_3
+   Memcheck:Leak
+   match-leak-kinds: reachable
+   ...
+   obj:/usr/lib/x86_64-linux-gnu/libxcb.so.*
+}
+
+{
+   glibc_dlopen
+   Memcheck:Leak
+   match-leak-kinds: reachable
+   fun:malloc
+   fun:strdup
+   ...
+   obj:*/libc-*.so*
+}
+{
+   glibc_dl_new_object
+   Memcheck:Leak
+   match-leak-kinds: reachable
+   fun:calloc
+   fun:_dl_new_object
+   ...
+   obj:*/ld-*.so*
+}
