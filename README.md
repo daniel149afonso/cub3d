@@ -4,6 +4,8 @@
 Cub3D is a simple **3D raycasting engine** inspired by *Wolfenstein 3D*, built with **C** and the **MiniLibX** graphics library.  
 This project introduces fundamental concepts of **computer graphics**, **raycasting**, **player movement**, and **texture mapping**.
 
+<img width="1289" height="749" alt="image" src="https://github.com/user-attachments/assets/c2c26beb-6f0b-47fd-9aa2-5abc61cc9979" />
+
 ---
 
 ## 🚀 Features
